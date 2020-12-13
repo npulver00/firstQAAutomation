@@ -8,14 +8,10 @@ export class SpecPage {
   driver: WebDriver;
   // any page that can search should work, but google is easy.
   url: string = "https://www.google.com";
-// url: string = "https://www.amazon.com/"; 
-
 
 searchBar: By = By.name("q");
 results: By = By.id("rso");
 
-//   searchBar: By = By.id("twotabsearchtextbox");
-//   results: By = By.className("a-section a-spacing-none a-spacing-top-small");
 
   //for the methods, I'm going to copy/paste from another page object for some basic functionality
   //including the constructor and navigate functions. I'll make the doSearch and getResults using those.
